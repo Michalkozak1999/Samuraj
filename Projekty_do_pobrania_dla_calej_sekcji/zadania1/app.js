@@ -51,11 +51,11 @@ handleadd = () =>{
         })
         
         console.log(this.state.mojatablica)
-        // console.log(this.state.mojatablica.length)
+        console.log(this.state.mojatablica.length)
         
 }
 
-
+// tak mniej wiecej to bedzie działać jak na n3 (lekka poprawa)
 
  handleclicksjow = () =>{
     
@@ -122,3 +122,7 @@ ReactDOM.render(
     <App/>,
     document.querySelector("#root")
 )
+
+// const calculators = this.props.currencies.map(currency => (
+//     <Cash key={currency.id} ratio={currency.ratio} title={currency.title} cash={amount} price={price} />
+//   ))
