@@ -110,3 +110,11 @@ class List extends React.Component {
 }
 
 ReactDOM.render(<List />, document.getElementById('root'))
+
+// nst people = this.state.people.map(person => (
+//   <Person
+//     key={person.id}
+//     name={person.name}
+//     delete={this.handleDelete}
+//   />
+// )
