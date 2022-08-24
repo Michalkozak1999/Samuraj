@@ -118,3 +118,28 @@ ReactDOM.render(<List />, document.getElementById('root'))
 //     delete={this.handleDelete}
 //   />
 // )
+// nst people = this.state.people.map(person => (
+//   <Person
+//     key={person.id}
+//     name={person.name}
+//     delete={this.handleDelete}
+//   />
+// )// nst people = this.state.people.map(person => (
+//   <Person
+//     key={person.id}
+//     name={person.name}
+//     delete={this.handleDelete}
+//   />
+// )
+// v
+// v
+
+// v
+// vv
+// v// nst people = this.state.people.map(person => (
+//   <Person
+//     key={person.id}
+//     name={person.name}
+//     delete={this.handleDelete}
+//   />
+// )
