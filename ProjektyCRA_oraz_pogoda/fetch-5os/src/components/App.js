@@ -57,3 +57,32 @@ class App extends Component {
 }
 
 export default App;
+
+
+
+// handleDataFetch = () => {
+ 
+//   fetch(API)
+//   .then(response => {
+//    if(response.ok){
+//     //  console.log(response)
+//     return  response;
+//    } throw Error(response.status)
+//   })
+//   .then(response =>response.json())
+//   .then(data  => {  
+//     const user = data.results;
+
+
+// handleDataFetch = () => {
+ 
+//   fetch(API)
+//   .then(response => {
+//    if(response.ok){
+//     //  console.log(response)
+//     return  response;
+//    } throw Error(response.status)
+//   })
+//   .then(response =>response.json())
+//   .then(data  => {  
+//     const user = data.results;
