@@ -6,6 +6,7 @@ import AddTask from './Addtask';
 
 
 class App extends Component {
+  conuter = 4
   state = {
     task: [
       {
@@ -77,16 +78,38 @@ class App extends Component {
     })
     this.setState({
      task:tasks
+   
      
     })
   }
 
 
+addTask = (text, date, important) =>{
+  console.log("dodany obiekt")
+  const task = {
+    id: this.conuter,
+    text: text,//text z inputa
+    date: date, //text z inputa
+    important: important, // wartośc z inputa // !!!!! sprawdz czemu zmiana checked na true (zaznaczenie sie priorytetu powoduje zmiane important na true)
+    active: true,
+    finishDate: null,
+  }
+  this.conuter++
+  console.log(task, this.conuter)
+
+
+this.setState(prevstate => ({
+task: [...prevstate.task, task]
+}))
+
+  return true
+}
+
   render() {
     return (
       <div >
        <h1>TO DO APP</h1>
-        <AddTask />
+        <AddTask addtask={this.addTask}/>
         <TaskList tasks={this.state.task} delete={this.deleteTask} changes={this.changeTaskStatus} />
 
       </div>
