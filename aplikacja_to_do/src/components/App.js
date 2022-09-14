@@ -118,3 +118,39 @@ task: [...prevstate.task, task]
 }
 
 export default App;
+
+
+// render() {
+//   return (
+//     <div >
+//      <h1>TO DO APP</h1>
+//       <AddTask addtask={this.addTask}/>
+//       <TaskList tasks={this.state.task} delete={this.deleteTask} changes={this.changeTaskStatus} />
+
+//     </div>
+//   );
+// }
+// }
+
+// id: 0,
+// text: "zagrać wreszcie w wiedzmina 3",
+// date: '2018-02-15',
+// important: true,
+// active: true,
+// finishDate: null,
+// },
+// {
+// id: 1,
+// text: "zagrać wreszcie w wiedzmina 2",
+// date: '2019-03-15',
+// important: true,
+// active: true,
+// finishDate: null,
+// },
+// {
+// id: 2,
+// text: "zagrać wreszcie w wiedzmina 1",
+// date: '2019-03-15',
+// important: false,
+// active: true,
+// finishDate: null,
